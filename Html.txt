@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <div class="login-box">
+        <img src="https://cdn4.iconfinder.com/data/icons/web-ui-color/128/Audio-512.png" class="speaker-logo">
+        <h2>Text 2 Speech</h2>
+        <form action="#">
+            <div class="row">
+                <textarea placeholder="Enter Text"></textarea>
+            </div>
+            <div class="row">
+                <label for="voiceSelect">Select Voice</label>
+                <div class="outer">
+                    <select id="voiceSelect"></select>
+                </div>
+            </div>
+
+            <a href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <button type="submit" class="button button2">Convert To Speech</button>
+            </a>
+        </form>
+    </div>
+
+</body>
+
+
+</html>
